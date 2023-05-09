@@ -2,8 +2,8 @@ def solve(matrix):
     pairs= []
     m = len(matrix)
     n = len(matrix[0])
-    for i in range(len(matrix)):
-        for j in range(len(matrix[i])):
+    for i in range(m):
+        for j in range(n):
             if matrix[i][j] == 0:
                 pairs.append([i,j])
 
